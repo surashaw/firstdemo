@@ -1,0 +1,36 @@
+<html>
+
+<head>
+
+<title> Welcome to Angular Avengers </title>
+
+</head>
+
+<body>
+<table border "1" cellspacing="0">
+
+<tr>
+<th> Name</th>
+<th colspan="2"> Phone</th>	
+</tr>
+
+<tr>
+<td>Suraj</td>
+<td>764539203</td>
+</tr>
+
+
+<tr>
+<td>Suraj</td>
+<td>764539203</td>
+<td>033-24565245</td>
+</tr>
+
+
+</table>
+
+</body>
+
+
+</html>
+
