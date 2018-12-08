@@ -6,8 +6,17 @@
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 50px
+    padding-left: 50px;
+    color:blue;  
+    text-align: left;
+    text-transform: lowercase;
+    text-indent: 50px;
+    letter-spacing :10px;
+    line-height: 1.0;
+    word-spacing: 5px;
 
+    <!-- border: solid 2px green. -->
+    
 }
 
 .second {
@@ -17,17 +26,32 @@
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 30px
+    padding-left: 30px;
+    color: violet;
+    text-align: center;
+    text-transform: uppercase;
+    text-indent: 5em;
+    letter-spacing :0.4em;
+    line-height: 1.0;
+    word-spacing: 1em;
 }
 
 .third {
-    border-left-style: solid;
-    border-color:black;
+    border-left-style: dotted;;
+    border-width:2px;
+    border-color:green;
     margin-top: 5px;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 30px
+    padding-left: 50px;
+    color:pink;  
+    text-align: left;
+    text-transform: lowercase;
+    text-indent: 5%;
+    letter-spacing :1%;
+    line-height: 1.0;
+    word-spacing: 5%;
 }
 
 .fourth {
