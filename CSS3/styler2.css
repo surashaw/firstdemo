@@ -1,0 +1,49 @@
+.parent{
+    /*list-style-type: disc;*/
+   list-style-type: lower-alpha;
+
+}
+
+.child{
+    list-style-type: upper-roman;
+
+}
+
+
+.inline {
+    border: 10px solid blue;
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px 2px 3px 5px;
+    margin:2px 5px 3px 10px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+}
+
+.block {
+    border: 10px solid blue;
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding: 5px 2px 3px 5px;
+    margin:2px 5px 3px 10px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+}
+
+
+.inlineblock {
+    border: 10px solid blue;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px 2px 3px 5px;
+    margin:2px 5px 3px 10px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+}
+
+/*.inlineblock{
+    display:none;
+}*/

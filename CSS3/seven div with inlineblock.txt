@@ -1,0 +1,19 @@
+<!doctype html>
+
+<head>
+        <link rel="stylesheet" href="styler2.css">
+
+</head>
+
+<body>
+
+<div class="block">This is my div1 element</div>
+<div class="block">This is my div2 element</div>
+<div class="block">This is my div3 element</div>
+<div class="block">This is my div4 element</div>
+<div class="block">This is my div5 element</div>
+<div class="block">This is my div6 element</div>
+<div class="block">This is my div7 element</div>
+<!--Height and weidth can not be applied to block  element when presented as a inline element-->
+</body>
+</html>
