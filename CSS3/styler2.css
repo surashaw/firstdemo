@@ -80,12 +80,57 @@
     margin: 10px 20pz 10px 20px;*/
 }
 
-.fixed{
+.overflow{
+     background-color: violet;
+     width: 200px;
+     height: 100px;
+     border: 1px dotted black;
+     overflow: scroll;
+}
 
-    position: relative;
-    left: 30px;
-    top: 50px;
-    border: 3px solid green;
-    /*padding: 5px 5px 5px 5px;
-    margin: 10px 20pz 10px 20px;*/
+.floatleft {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid orangered;
+  }
+
+  body{
+
+    height:1800px;
+  }
+
+  .floatright {
+    float: right;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid orangered;
+  }
+
+
+  .inline span {
+    color:blue;
+    /* Decendent Selector*/
+}
+
+.inline>span {
+    color: violet;
+     /* Child Selector*/
+}
+.inline p >span{
+    color: red;
+     /* decendent + Child Selector*/
+}
+
+.inline +span{
+    color: orange;
+     /* adjacent sibling selector*/
+}
+
+
+.inline ~span{
+    color: purple;
+     /* general sibling selector*/
 }
