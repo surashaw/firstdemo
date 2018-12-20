@@ -1,0 +1,28 @@
+/*div::first-line {
+  color: blue;
+  font-variant: small-caps;
+}
+*/
+
+div::first-letter {
+    color: blue;
+
+  }
+
+
+ p::before {
+    content: "%";
+   
+  }
+  
+
+  p::after {
+    content: "@@";
+   
+  }
+  
+
+  div{
+    opacity: 0.5;
+  }
+  

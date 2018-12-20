@@ -1,3 +1,21 @@
+a.link{
+    color: red;
+
+}
+
+a.visited{
+    color: red;
+
+}
+a.hover{
+    color: red;
+
+}
+a.{
+    color: red;
+
+}
+
 .parent{
     /*list-style-type: disc;*/
    list-style-type: lower-alpha;
