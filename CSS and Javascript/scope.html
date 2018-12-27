@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="localscope"></div>
+
+<div id="globalscope"></div>
+
+<script>
+var carName = "Masarati";// Glocal Scope variable which can be used outside the myfunction//
+myFunction();
+
+function myFunction() {
+  var carName = "Ferrari";//Local Scopr variable which can only be used with in the fuction//
+  document.getElementById("localscope").innerHTML = typeof carName + " " + carName;
+}
+document.getElementById("globalscope").innerHTML = typeof carName +" " + carName;
+</script>
+
+</body>
+</html>
