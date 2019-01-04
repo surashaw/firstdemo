@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">Try it</button>
+<h2>Original Array:</h2>
+
+<div id="demo"></div>
+
+<h2>Shorted Array:</h2>
+<div id="demo1"></div>
+
+<script>
+var fruits = ["Apple","Grapes", "Mango","Banana","Pineapple","goava"]; 
+document.getElementById("demo").innerHTML = fruits;
+
+function myFunction() {
+  fruits.sort();
+  document.getElementById("demo1").innerHTML = fruits;
+}
+</script>
+
+<!-- Q3 of assignemnet2
+      What will be output for below code and why 
+[1,2,4,5,11,12,22,23,31].sort()
+
+Ans- the output will be an alphabetically sorted array in which first preference will be given to 
+all the numbers starting with 1.
+
+Araya output will be: [1,11,12,2,22,23,32,4,5-->

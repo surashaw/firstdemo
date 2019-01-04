@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">Try it</button>
+
+<div id="demo"></div>
+
+<h2>Shorted Array:</h2>
+
+<script>
+var numbers = [1,2,4,5,11,12,22,23,31];
+document.getElementById("demo").innerHTML = numbers;  
+    
+function myFunction() {
+numbers.sort(function(a, b){return a - b});
+document.getElementById("demo").innerHTML = numbers;
+}
+
+</script>
+</body>
+</html>
