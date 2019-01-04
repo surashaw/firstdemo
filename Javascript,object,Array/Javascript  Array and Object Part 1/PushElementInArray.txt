@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div id="demo"></div>
+
+<script>
+var language = ["C#", "Javascript","Angular","HTML"];
+
+language.push("Typescript", :AmaZon Web Service", "SAP");
+
+document.getElementById("demo").innerHTML =language;
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>"The original Array:"</h2>   
+<div id="demo"></div>
+
+<button onclick="myFunction()">Try it</button>
+<h2>"The modified Array:"</h2>
+
+<div id="demo1"></div>
+
+<script>
+var language = ["C#", "Javascript","Angular","HTML"];
+document.getElementById("demo").innerHTML = language;
+
+function myFunction() {
+  language.push("Typescript ,AmaZon Web Service, SAPKiwi");
+  document.getElementById("demo1").innerHTML = language;
+
+}
+
+</script>
+
+</body>
+</html>
