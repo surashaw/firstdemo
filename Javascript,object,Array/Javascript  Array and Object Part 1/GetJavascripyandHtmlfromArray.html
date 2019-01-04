@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo1"></p>
+<p id="demo3"></p>
+
+<script>
+var language = ["C#", "Javascript","Angular","HTML"];
+document.getElementById("demo1").innerHTML = "The original Array:<br> " + language;
+
+function myFunction() {
+  var removed = language.splice(1, 2); 
+  document.getElementById("demo3").innerHTML = "Removed elements from array:<br> " + removed; 
+}
+</script>
