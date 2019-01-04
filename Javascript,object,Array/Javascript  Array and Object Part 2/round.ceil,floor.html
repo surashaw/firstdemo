@@ -1,0 +1,64 @@
+Q) What is ceil and floor function and what is use of them. 
+
+Ans: ceil: Returns the value of a given variable rounded up to its nearest integer.
+     floor: Returns the value of a given variable rounded down to its nearest integer
+
+Q)What is round and how it is different from ceil and floor.
+
+Ans:round returns the value of a given variable rounded to its nearest integer. 
+    Where as the ceil reomded ups to the neares variable and 
+    floor reonded down to the neares variable.
+
+    Example:
+
+    Maths.rouns(7.7) will give result 8.
+    Maths.ceil(7.7) will give resul 8.
+    Maths.floor(7.7) will give result 7.
+
+    This shows that both round and ceil are the same in terms of operation with a different name.
+    
+
+Q)What will be output for below codes and give reason for output.
+
+    -> 1 + "2" + "2"
+    ANs:"122" as it will considerthe number 1 as a number and rest as string and will just concat them.
+    -> 1+2+3 +”4”
+    Ans: "64"  as it will considerthe number 1 ,2,3 as a number and add them up and rest as string and will just concat them.
+    -> “4” + true
+    Ans: "4true"
+    ->“True” + true
+    Ans: "Truetrue"
+    -> 1 + true
+    Ans: 2
+    -> 2 + false
+    Ans: 2
+    ->"4" * true
+    Ans: 4
+    -> 4 * “Af”
+    Ans: NaN
+    -> "4" * "A"
+    Ans: NaN
+    -> “4”*”4”
+    Ans:16
+    -> 4 + "4A" +10
+    Ans: 44A10
+    -> 4 + "4" * 10
+    ANs: 44
+    -> 4 + "4A" * 10
+    ANs:NaN 
+    -> 4 + "true" * 10
+    Ans: NaN
+    -> true *80
+    Ans: NaN
+    -> 1 +2+ 3+ "ad"
+    Ans: 6ad
+    -> "1" +2+ 3
+    Ans: 123
+    -> "1" *2+ 3+8*"true"
+    Ans:NaN
+    -> true*0 + "false"
+    Ans: 0
+    -> 1 *2+ 3+8+"true"
+    Ans: NaN
+    -> 1 *null + true+10 + "10"
+    Ans: 1110
